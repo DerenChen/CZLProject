@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		9382F952245FF4EA00F1F405 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9382F951245FF4EA00F1F405 /* AppDelegate.swift */; };
 		9382F954245FF4EA00F1F405 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9382F953245FF4EA00F1F405 /* SceneDelegate.swift */; };
-		9382F956245FF4EA00F1F405 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9382F955245FF4EA00F1F405 /* ViewController.swift */; };
-		9382F959245FF4EA00F1F405 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9382F957245FF4EA00F1F405 /* Main.storyboard */; };
 		9382F95C245FF4EA00F1F405 /* CZLProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9382F95A245FF4EA00F1F405 /* CZLProject.xcdatamodeld */; };
 		9382F95E245FF4EF00F1F405 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9382F95D245FF4EF00F1F405 /* Assets.xcassets */; };
 		9382F961245FF4EF00F1F405 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9382F95F245FF4EF00F1F405 /* LaunchScreen.storyboard */; };
 		9382F96C245FF4F000F1F405 /* CZLProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9382F96B245FF4F000F1F405 /* CZLProjectTests.swift */; };
 		9382F977245FF4F000F1F405 /* CZLProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9382F976245FF4F000F1F405 /* CZLProjectUITests.swift */; };
+		9382F99D245FFF4000F1F405 /* UIScreen+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9382F997245FFF4000F1F405 /* UIScreen+Extension.swift */; };
+		9382F99E245FFF4000F1F405 /* CZLMainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9382F99B245FFF4000F1F405 /* CZLMainTabBarViewController.swift */; };
+		9382F99F245FFF4000F1F405 /* CZLBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9382F99C245FFF4000F1F405 /* CZLBaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +40,6 @@
 		9382F94E245FF4EA00F1F405 /* CZLProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CZLProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9382F951245FF4EA00F1F405 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9382F953245FF4EA00F1F405 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9382F955245FF4EA00F1F405 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9382F958245FF4EA00F1F405 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9382F95B245FF4EA00F1F405 /* CZLProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CZLProject.xcdatamodel; sourceTree = "<group>"; };
 		9382F95D245FF4EF00F1F405 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9382F960245FF4EF00F1F405 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +50,9 @@
 		9382F972245FF4F000F1F405 /* CZLProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CZLProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9382F976245FF4F000F1F405 /* CZLProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CZLProjectUITests.swift; sourceTree = "<group>"; };
 		9382F978245FF4F000F1F405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9382F997245FFF4000F1F405 /* UIScreen+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScreen+Extension.swift"; sourceTree = "<group>"; };
+		9382F99B245FFF4000F1F405 /* CZLMainTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZLMainTabBarViewController.swift; sourceTree = "<group>"; };
+		9382F99C245FFF4000F1F405 /* CZLBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZLBaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +103,9 @@
 		9382F950245FF4EA00F1F405 /* CZLProject */ = {
 			isa = PBXGroup;
 			children = (
+				9382F994245FFF4000F1F405 /* Classes */,
 				9382F951245FF4EA00F1F405 /* AppDelegate.swift */,
 				9382F953245FF4EA00F1F405 /* SceneDelegate.swift */,
-				9382F955245FF4EA00F1F405 /* ViewController.swift */,
-				9382F957245FF4EA00F1F405 /* Main.storyboard */,
 				9382F95D245FF4EF00F1F405 /* Assets.xcassets */,
 				9382F95F245FF4EF00F1F405 /* LaunchScreen.storyboard */,
 				9382F962245FF4EF00F1F405 /* Info.plist */,
@@ -129,6 +130,56 @@
 				9382F978245FF4F000F1F405 /* Info.plist */,
 			);
 			path = CZLProjectUITests;
+			sourceTree = "<group>";
+		};
+		9382F994245FFF4000F1F405 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9382F995245FFF4000F1F405 /* Tools */,
+				9382F998245FFF4000F1F405 /* View */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9382F995245FFF4000F1F405 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				9382F996245FFF4000F1F405 /* Extensions */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		9382F996245FFF4000F1F405 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9382F997245FFF4000F1F405 /* UIScreen+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9382F998245FFF4000F1F405 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9382F999245FFF4000F1F405 /* Main */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9382F999245FFF4000F1F405 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				9382F99A245FFF4000F1F405 /* MainController */,
+				9382F99C245FFF4000F1F405 /* CZLBaseViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		9382F99A245FFF4000F1F405 /* MainController */ = {
+			isa = PBXGroup;
+			children = (
+				9382F99B245FFF4000F1F405 /* CZLMainTabBarViewController.swift */,
+			);
+			path = MainController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,7 +288,6 @@
 			files = (
 				9382F961245FF4EF00F1F405 /* LaunchScreen.storyboard in Resources */,
 				9382F95E245FF4EF00F1F405 /* Assets.xcassets in Resources */,
-				9382F959245FF4EA00F1F405 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,8 +312,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9382F956245FF4EA00F1F405 /* ViewController.swift in Sources */,
 				9382F952245FF4EA00F1F405 /* AppDelegate.swift in Sources */,
+				9382F99F245FFF4000F1F405 /* CZLBaseViewController.swift in Sources */,
+				9382F99E245FFF4000F1F405 /* CZLMainTabBarViewController.swift in Sources */,
+				9382F99D245FFF4000F1F405 /* UIScreen+Extension.swift in Sources */,
 				9382F954245FF4EA00F1F405 /* SceneDelegate.swift in Sources */,
 				9382F95C245FF4EA00F1F405 /* CZLProject.xcdatamodeld in Sources */,
 			);
@@ -301,14 +353,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9382F957245FF4EA00F1F405 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9382F958245FF4EA00F1F405 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9382F95F245FF4EF00F1F405 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -439,7 +483,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WN7L7QK6ZT;
 				INFOPLIST_FILE = CZLProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,7 +502,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WN7L7QK6ZT;
 				INFOPLIST_FILE = CZLProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
