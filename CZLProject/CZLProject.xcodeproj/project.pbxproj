@@ -18,6 +18,7 @@
 		9382F99E245FFF4000F1F405 /* CZLMainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9382F99B245FFF4000F1F405 /* CZLMainTabBarViewController.swift */; };
 		9382F99F245FFF4000F1F405 /* CZLBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9382F99C245FFF4000F1F405 /* CZLBaseViewController.swift */; };
 		9382F9A12460021100F1F405 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9382F9A02460021100F1F405 /* UIColor+Extension.swift */; };
+		939F7E292461172200E159CA /* CZLProjectCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939F7E282461172200E159CA /* CZLProjectCommon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		9382F99B245FFF4000F1F405 /* CZLMainTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZLMainTabBarViewController.swift; sourceTree = "<group>"; };
 		9382F99C245FFF4000F1F405 /* CZLBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZLBaseViewController.swift; sourceTree = "<group>"; };
 		9382F9A02460021100F1F405 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		939F7E282461172200E159CA /* CZLProjectCommon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CZLProjectCommon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				9382F994245FFF4000F1F405 /* Classes */,
 				9382F951245FF4EA00F1F405 /* AppDelegate.swift */,
 				9382F953245FF4EA00F1F405 /* SceneDelegate.swift */,
+				939F7E282461172200E159CA /* CZLProjectCommon.swift */,
 				9382F95D245FF4EF00F1F405 /* Assets.xcassets */,
 				9382F95F245FF4EF00F1F405 /* LaunchScreen.storyboard */,
 				9382F962245FF4EF00F1F405 /* Info.plist */,
@@ -318,6 +321,7 @@
 			files = (
 				9382F9A12460021100F1F405 /* UIColor+Extension.swift in Sources */,
 				9382F952245FF4EA00F1F405 /* AppDelegate.swift in Sources */,
+				939F7E292461172200E159CA /* CZLProjectCommon.swift in Sources */,
 				9382F99F245FFF4000F1F405 /* CZLBaseViewController.swift in Sources */,
 				9382F99E245FFF4000F1F405 /* CZLMainTabBarViewController.swift in Sources */,
 				9382F99D245FFF4000F1F405 /* UIScreen+Extension.swift in Sources */,

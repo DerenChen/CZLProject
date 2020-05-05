@@ -12,7 +12,6 @@ class CZLBaseViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         
     }
     
