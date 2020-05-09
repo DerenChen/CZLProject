@@ -20,6 +20,7 @@
 		9382F9A12460021100F1F405 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9382F9A02460021100F1F405 /* UIColor+Extension.swift */; };
 		939A06C92462B94A004BD863 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939A06C82462B94A004BD863 /* UIView+Extension.swift */; };
 		939F7E292461172200E159CA /* CZLProjectCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939F7E282461172200E159CA /* CZLProjectCommon.swift */; };
+		93B3FF5424665D9400DCCC30 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B3FF5324665D9400DCCC30 /* Date+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		9382F9A02460021100F1F405 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		939A06C82462B94A004BD863 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		939F7E282461172200E159CA /* CZLProjectCommon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CZLProjectCommon.swift; sourceTree = "<group>"; };
+		93B3FF5324665D9400DCCC30 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +164,7 @@
 				9382F997245FFF4000F1F405 /* UIScreen+Extension.swift */,
 				9382F9A02460021100F1F405 /* UIColor+Extension.swift */,
 				939A06C82462B94A004BD863 /* UIView+Extension.swift */,
+				93B3FF5324665D9400DCCC30 /* Date+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -327,6 +330,7 @@
 				939F7E292461172200E159CA /* CZLProjectCommon.swift in Sources */,
 				939A06C92462B94A004BD863 /* UIView+Extension.swift in Sources */,
 				9382F99F245FFF4000F1F405 /* CZLBaseViewController.swift in Sources */,
+				93B3FF5424665D9400DCCC30 /* Date+Extension.swift in Sources */,
 				9382F99E245FFF4000F1F405 /* CZLMainTabBarViewController.swift in Sources */,
 				9382F99D245FFF4000F1F405 /* UIScreen+Extension.swift in Sources */,
 				9382F954245FF4EA00F1F405 /* SceneDelegate.swift in Sources */,
